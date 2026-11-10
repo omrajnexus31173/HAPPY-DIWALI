@@ -3,7 +3,7 @@ import {
   flameTexture, marigoldTexture, lanternTexture, floorTexture,
   rangoliTexture, footprintTexture, sparkTexture, flareTexture,
 } from "../lib/textures";
-import skylineUrl from "../assets/skyline.jpg";
+const skylineUrl = "/images/skyline.jpg";
 
 export interface ZoneDef {
   id: string;
